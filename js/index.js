@@ -1,13 +1,6 @@
 const GITHUBAPI = 'https://api.github.com'
 const GITHUBSEARCH = 'https://api.github.com/search/users?q='
 
-// function to console log values
-// const print = (value) => console.log(value);
-
-// // Global Variables
-// githubApi = "https://api.github.com/"
-// githubSearchApi = githubApi + "search/users?q=";
-
 // Add event listener to submit button
 document.querySelector('form').addEventListener('submit',search);
 
